@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+/*inicia section 1*/
+.section-1 {
+    width: 100%;
+    height: 10em;
+    background: linear-gradient(90deg, #ce37ce, #ff5500);
+    padding-top: 1.5em;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.img {
+    width: 25%;
+    height: 100%;
+}
+
+.menu {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.img img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.menu a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+}
+
+.menu a:hover {
+    background-color: #ff5500;
+}
+
+/*Finaliza section 1*/
+/*Inicia section 3*/
+.section-3 {
+    background-image: url("img/img2.jpg");
+    background-size: 10px;
+    background-position: center;
+    height: 50vh;
+    position:relative;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .s3-imagen {
+    color: #ffffff;
+    z-index: 3;
+  }
+  
+  .s3-imagen h1 {
+    font-size: 3em;
+    margin-top: 10vh;
+    background-color:black;
+    z-index:3;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .s3-imagen p {
+    font-size: 1.5em;
+    margin: 0 auto;
+    width: 50%;
+    background-color: black;
+    z-index: 3;
+    position: absolute;
+    top: 300px;
+    left: 195px;
+  }
+  
+/*Finaliza section 3*/
+/*Inicia section 2*/
+/* Sección contenedor */
+.contenedor.section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 10000px;
+  }
+  
+  /* Div logo */
+  .s2-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 1em;
+    width: 80px;
+    height: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Imagen */
+  .s2-logo img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Titulo */
+  .s2-logo h3 {
+    font-size: 16px;
+    font-weight:lighter;
+    margin: 0;
+    color: #444;
+  }
+  
+  /* Efecto hover */
+  .s2-logo:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+  /* Colores de los logos */
+  .s2-logo:nth-child(1) {
+    background-color: #f78da7;
+  }
+  
+  .s2-logo:nth-child(2) {
+    background-color: #6f42c1;
+  }
+  
+  .s2-logo:nth-child(3) {
+    background-color: #2196f3;
+  }
+  
+  .s2-logo:nth-child(4) {
+    background-color: #ffeb3b;
+  }
+  
+  .s2-logo:nth-child(5) {
+    background-color: #4caf50;
+  }
+  
+/*Finaliza section 2*/
+/*Incia section 4*/
+.section-4 {
+    width: 100%;
+    height: calc(100vh - 20em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.s4-textos {
+    width: 80%;
+    height: 20%;
+}
+
+.s4-img {
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo {
+    font-size: 2em;
+    text-align: center;
+    color: #333033;
+}
+
+.s4-textos hr {
+    width: 3em;
+    height: 0.25em;
+    background: linear-gradient(90deg, #ce37ce, #ff5500);
+    border: none;
+    border-radius: 1em;
+    margin: 1em auto;
+}
+
+.s4-contenido {
+    width: 33.33em;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.contenido-img {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;git
+}
+
+.contenido-img img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.contenido-texto {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1.30em 0;
+}
+
+.contenido-texto h3 {
+    font-size: 0.25em 0;
+    color: #ff5500;
+}
+
+.contenido-texto p {
+    font-size: 1.25em;
+    color: #454245;
+    margin: 1em 0;
+    text-align: center;
+}
+
+.contenido-texto a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5500;
+    width: 30%;
+    padding: 0.5em 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*Finaliza section 4*/
